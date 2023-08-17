@@ -1,0 +1,18 @@
+.contenedor_imagen_mapa{
+    background-color: $color_gris;
+    .boton_contacto_ubicacion_mapa{
+        background-color: $color_blanco;
+        color: $color_negro;
+        border: $bordes_uno $color_negro;
+        &:hover{
+            background-color:$color_blanco ;
+            color: $color_negro;
+            border: $bordes_uno $color_hover_boton;
+        }
+    }
+}
+
+
+
+
+

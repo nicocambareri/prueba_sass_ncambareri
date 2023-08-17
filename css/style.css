@@ -1,0 +1,182 @@
+body{
+
+   background-color: black;
+}
+
+
+.contenedor_nav{
+    background-color: rgb(0, 0, 0);
+}
+.nav_personalizado{
+    background-color: rgb(0, 0, 0);
+}
+.nav-link:hover {
+    font-size: 1.02rem;
+    color: rgb(234, 239, 149) !important;
+
+}
+.contenedor_anclas_botones{
+    background-color: rgb(0, 0, 0);
+}
+.color_fuente{
+    color: whitesmoke !important;
+}
+.seccion_carrusel_uno{
+    padding-top: 20px;
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+.img_carrusel{
+    border-radius: 15px;
+}
+
+
+.seccion_dos{
+    background-color: rgb(0, 0, 0);
+  }
+
+  footer{
+    height: 20vh;
+}
+.contenedor_footer{
+    background-color: rgb(83, 80, 80);
+}
+
+.boton_footer{
+    background-color:whitesmoke;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+
+.boton_footer:hover {
+    background-color: rgb(234, 239, 149)  ;
+    color: black;
+    border: 1px solid rgb(161, 210, 45);
+    
+}
+
+.color_font_footer{
+    color: whitesmoke;
+}
+
+
+  @media (max-width: 1000px) {
+
+   .card{
+    margin: 5px;
+   }
+
+
+    .card-text {
+        display: none;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: 100%;
+
+    }
+    .card-body{
+        display: none;
+    }
+}
+
+
+
+
+
+.tarjetas_colores{
+    padding: 10px;
+}
+
+
+
+.contenedor_img_baño{
+    display: flex;
+    margin-top: 15px;
+    border-color: 1px solid whitesmoke ;
+}
+
+.h5_banio  {
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    text-shadow: 10px 1px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.p_uno_banio{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.p_dos_banio{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.color_fuente_contacto{
+    color:whitesmoke;
+}
+
+.color_fuente_contacto_2{
+    color: rgb(151, 151, 151);
+}
+
+
+
+
+.boton_contacto_enviar{
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+}
+
+
+.boton_contacto_enviar:hover {
+    background-color: rgb(234, 239, 149)  ;
+    color: black;
+    border: 1px solid rgb(161, 210, 45);
+    
+}
+
+.contenedor_imagen_mapa{
+    background-color: rgb(154, 159, 159);
+}
+
+
+.boton_contacto_ubicacion_mapa{
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+}
+
+
+.boton_contacto_ubicacion_mapa:hover {
+    background-color: rgb(234, 239, 149)  ;
+    color: black;
+    border: 1px solid rgb(161, 210, 45);
+    
+}
+
+
+.contenedor_imagen_marcas{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+

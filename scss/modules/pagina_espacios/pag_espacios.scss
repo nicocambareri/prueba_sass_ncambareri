@@ -1,0 +1,40 @@
+
+
+
+.contenedor_img_baño{
+    display: flex;
+    margin-top: 15px;
+    border-color: $bordes_uno $color_blanco ;
+      .h5_banio  {
+        font-size: ($tam_fuente_espacios)+2;
+        color: $color_blanco;
+        text-align: center;
+        justify-content: center;
+        text-shadow: $text_shadows_dos $color_negro;
+             .p_uno_banio{
+            font-size: $tam_fuente_espacios;
+            color: $color_blanco;
+            text-align: center;
+            justify-content: center;
+            text-shadow:$text_shadows_uno $color_negro;
+                .p_dos_banio{
+                font-size: ($tam_fuente_espacios)-1 ;
+                color: $color_blanco;
+                text-align: center;
+                justify-content: center;
+                text-shadow: $text_shadows_uno $color_negro;
+            }
+            
+        
+        }
+        
+     
+    }
+
+}
+
+
+
+
+
+

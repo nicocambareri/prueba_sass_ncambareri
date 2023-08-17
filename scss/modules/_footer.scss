@@ -1,0 +1,21 @@
+footer {
+    height: 20vh;
+    .contenedor_footer{
+        background-color: $color_gris;
+        .boton_footer{
+            background-color: $color_blanco;
+            color: $color_negro;
+            border: $bordes_uno $color_negro;
+            &:hover {
+                background-color: $color_hover_dos;
+                color:$color_negro;
+                border: $bordes_uno $color_borde;
+                .color_font_footer{
+                    color: $color_blanco;
+                }
+                
+            }
+            
+        }
+    }
+}

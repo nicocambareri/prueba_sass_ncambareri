@@ -1,0 +1,18 @@
+.contenedor_nav{
+    background-color: $color_negro;
+    .nav_personalizado{
+        background-color: $color_negro;
+        .contenedor_anclas_botones{
+            background-color:$color_negro;
+            .color_fuente{
+                color: $color_blanco ;
+               
+            }
+        }
+    }
+} 
+.nav-link:hover {
+    font-size: $tam_fuente_nav;
+    color: $color_hover_boton !important;
+
+}

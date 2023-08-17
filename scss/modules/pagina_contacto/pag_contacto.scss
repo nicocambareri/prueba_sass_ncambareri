@@ -1,0 +1,11 @@
+
+.boton_contacto_enviar{
+    background-color: $color_blanco;
+    color: $color_negro;
+    border: $bordes_uno $color_negro;
+    &:hover{
+        background-color: $color_blanco;
+        color: $color_negro;
+        border: $bordes_uno $color_hover_boton;
+    } 
+}
