@@ -1,0 +1,25 @@
+@mixin nav-header {
+    .contenedor_nav{
+        background-color:map-get($paleta_colores, "negro");
+        .nav_personalizado{
+            background-color:map-get($paleta_colores, "negro");
+            .contenedor_anclas_botones{
+                background-color:map-get($paleta_colores, "negro");
+                .color_fuente{
+                    color:map-get($paleta_colores, "blanco");
+    
+                   
+                }
+            }
+        }
+    } 
+    .nav-link:hover {
+        font-size: $tam_fuente_nav;
+        color: map-get($paleta_colores, "verde_hover") !important;
+      
+    }
+    
+}
+
+
+

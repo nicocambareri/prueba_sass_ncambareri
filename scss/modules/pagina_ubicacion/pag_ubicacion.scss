@@ -1,16 +1,19 @@
+// Estilos de pagina UBICACION
 .contenedor_imagen_mapa{
-    background-color: $color_gris;
+    background-color: map-get($paleta_colores, "gris");
+    color: map-get($paleta_colores, "blanco");
     .boton_contacto_ubicacion_mapa{
-        background-color: $color_blanco;
-        color: $color_negro;
-        border: $bordes_uno $color_negro;
+        background-color: map-get($paleta_colores, "blanco");
+        color: map-get($paleta_colores, "negro");
+        border: $bordes_uno map-get($paleta_colores, "verde_hover");
         &:hover{
-            background-color:$color_blanco ;
-            color: $color_negro;
-            border: $bordes_uno $color_hover_boton;
+            background-color:map-get($paleta_colores, "verde_hover") ;
+            color: map-get($paleta_colores, "negro");
+            border: $bordes_uno map-get($paleta_colores, "verde_borde");
         }
     }
 }
+
 
 
 

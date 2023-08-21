@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Design</title>
-    <link rel="shortcut icon" href="../assets/img/conexiones-de-carpinteria.png" />
+    <meta name="description" content="en este sitio podras contactarte y hacernos el tipo de consulta que quieras">
+    <title>Home Design - Todo para tus Espacios</title>
+    <link rel="shortcut icon" href="../assets/img/conexiones-de-carpinteria.webp" />
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
 
-
+                                <!-- HEADER/NAV/CABECERA/MENU SUPERIOR -->
     <header>
+
         <div class="container-fluid d-flex justify-content-center contenedor_nav  ">
             <nav class="navbar navbar-expand-sm nav_personalizado">
                 <div class="container-fluid contenedor_anclas_botones ">
@@ -38,33 +40,34 @@
     </header>
 
 
-
+                                            <!-- COMIENZO MAIN -->
 
     <main>
-        <div class="conteiner d-flex justify-content-center">
-            <form class="col-5">
 
+        <div class="conteiner d-flex justify-content-center">
+            <form class="col-7">
+                                                    <!-- formulario nombre -->
                 <div class="form-floating mb-3">
                     <input type="email" class="form-control" id="floatingInput" placeholder="Ingrese su Nombre">
                     <label for="floatingInput">Nombre</label>
-                </div>
-
+                </div>  
+                                                     <!-- formulario apellido -->
                 <div class="form-floating mb-5">
                     <input type="email" class="form-control" id="floatingInput" placeholder="Ingrese su Apellido">
                     <label for="floatingInput">Apellido</label>
                 </div>
 
-
+                                                     <!-- formulario email -->
                 <div class="form-floating mb-3">
                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                     <label for="floatingInput">Correo electrónico</label>
                 </div>
-
+                                                     <!-- formulario contraceña -->
                 <div class="form-floating mb-5">
                     <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
                     <label for="floatingPassword">Contraseña</label>
                 </div>
-
+                                                     <!-- formulario genero -->
                 <div class="mb-5">
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Seleccione su Genero</option>
@@ -73,6 +76,7 @@
                         <option value="3">Otro</option>
                     </select>
                 </div>
+                                                     <!-- formulario tipo consulta -->
                 <div class="mb-3">
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Tipo de Consulta</option>
@@ -90,7 +94,7 @@
 
                 </div>
 
-
+                                                 <!-- seccion boton enviar /resetear-->
                 <div class="conteiner d-flex justify-content-center contenedor_btn_enviar">
                     <button type="button" class="btn btn-primary btn-sm me-3 boton_contacto_enviar">Enviar</button>
                     <button type="reset" class="btn btn-secondary btn-sm">Resetear</button>
@@ -98,11 +102,21 @@
             </form>
         </div>
     </main>
+                                        <!-- FIN MAIN -->
 
-
-
+                                        <!-- FOOTER / PIE DE PAGINA -->
     <footer>
         <div class="container-fluid mt-5 ">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb conteiner-fluid justify-content-center">
+                    <li class="breadcrumb-item"><a href="../index.html" class="fuente_breadcrumb">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="./colores.html" class="fuente_breadcrumb">Colores</a></li>
+                    <li class="breadcrumb-item active fuente_breadcrumb_activo" aria-current="page">Contacto</li>
+                    <li class="breadcrumb-item"><a href="./marcas.html" class="fuente_breadcrumb">Marcas</a></li>
+                    <li class="breadcrumb-item"><a href="./espacios.html" class="fuente_breadcrumb">Espacios</a></li>
+                    <li class="breadcrumb-item"><a href="./dondecomprar.html" class="fuente_breadcrumb">Donde Comprar</a></li>
+                </ol>
+            </nav>
 
             <div class="card text-center contenedor_footer ">
                 <div class="card-header color_font_footer">

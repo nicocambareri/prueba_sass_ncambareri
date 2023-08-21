@@ -1,37 +1,37 @@
+// Estilos de pagina ESPACIOS
 
 
-
-.contenedor_img_baño{
+.contenedor_img_espacios{
     display: flex;
     margin-top: 15px;
-    border-color: $bordes_uno $color_blanco ;
+    border-color:map-get($paleta_colores, "blanco") ;
       .h5_banio  {
         font-size: ($tam_fuente_espacios)+2;
-        color: $color_blanco;
+        color: map-get($paleta_colores, "blanco");
         text-align: center;
         justify-content: center;
-        text-shadow: $text_shadows_dos $color_negro;
-             .p_uno_banio{
-            font-size: $tam_fuente_espacios;
-            color: $color_blanco;
-            text-align: center;
-            justify-content: center;
-            text-shadow:$text_shadows_uno $color_negro;
-                .p_dos_banio{
-                font-size: ($tam_fuente_espacios)-1 ;
-                color: $color_blanco;
-                text-align: center;
-                justify-content: center;
-                text-shadow: $text_shadows_uno $color_negro;
-            }
-            
-        
-        }
+        text-shadow: $text_shadows_dos map-get($paleta_colores, "negro");
+      }
         
      
     }
+    
 
-}
+
+.p_uno_banio{
+    font-size: $tam_fuente_espacios;
+    color: map-get($paleta_colores, "blanco");
+    text-align: center;
+    justify-content: center;
+    text-shadow:$text_shadows_uno map-get($paleta_colores, "negro");
+       }
+.p_dos_banio{
+        font-size: ($tam_fuente_espacios)-1 ;
+        color: map-get($paleta_colores, "blanco");
+        text-align: center;
+        justify-content: center;
+        text-shadow: $text_shadows_uno map-get($paleta_colores, "negro");
+    }
 
 
 

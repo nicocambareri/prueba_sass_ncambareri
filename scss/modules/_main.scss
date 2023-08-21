@@ -2,16 +2,35 @@
     
     .seccion_carrusel_uno {
         padding-top: 20px;
+        width: 80%;
         .carousel-item {
             height: 100%;
             .img_carrusel {
                 border-radius: $bordes_radio_15;
                 .seccion_dos {
-                    background-color: $color_negro
+                    background-color: map-get($paleta_colores, "negro");
                 }
             }
         }
     }
+    .contenedor_tarjeta_index{
+   background:
+linear-gradient(135deg, #050505 21px, #3f4041 22px, #3f4041 24px, transparent 24px, transparent 67px, #3f4041 67px, #3f4041 69px, transparent 69px),
+linear-gradient(225deg, #050505 21px, #3f4041 22px, #3f4041 24px, transparent 24px, transparent 67px, #3f4041 67px, #3f4041 69px, transparent 69px)0 64px;
+background-color:#050505;
+background-size: 64px 128px;
+
+        
+        
+    
+
+   
+    .texto_cartas_index{
+        color: map-get($paleta_colores, "blanco");
+        font-size: ($tam_fuente_espacios)-1.6;
+        
+    }
+}
     
   
     

@@ -1,3 +1,5 @@
 body {
-    background-color: $color_negro 
-}
+    background-color: map-get($paleta_colores, "negro");
+    position: relative;
+    min-height: 100vh;
+ }

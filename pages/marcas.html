@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Design</title>
-    <link rel="shortcut icon" href="../assets/img/conexiones-de-carpinteria.png" />
+    <meta name="description" content="en este lugar del sitio web podras encontrar con que marcas trabajamos">
+    <title>Home Design - Todo para tus Espacios</title>
+    <link rel="shortcut icon" href="../assets/img/conexiones-de-carpinteria.webp" />
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
+                                    <!-- HEADER/NAV/CABECERA/MENU SUPERIOR -->
     <header>
-        <div class="container-fluid d-flex justify-content-center contenedor_nav  ">
+        <div class="container-fluid d-flex justify-content-center contenedor_nav ">
             <nav class="navbar navbar-expand-sm nav_personalizado">
                 <div class="container-fluid contenedor_anclas_botones ">
                     <a class="navbar-brand color_fuente" href="../index.html">HomeDesign</a>
@@ -36,12 +39,13 @@
     </header>
 
     <main>
-
+       
+                                        <!-- SECCION DEKTON -->
         <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
-            <div class="col">
+            <div class="col" data-aos="fade-right">
                 <div class="card contenedor_imagen_marcas">
                     <a href=" https://canu.es/dekton/" target="_blank">
-                        <img src="../assets/img/DEKTON.jpg  " class="card-img-top " alt="dekton">
+                        <img src="../assets/img/DEKTON.webp" class="card-img-top " alt="dekton">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Dekton</h5>
@@ -52,10 +56,11 @@
                     </div>
                 </div>
             </div>
+                                          <!-- SECCION DUCASSE -->
             <div class="col">
-                <div class="card contenedor_imagen_marcas">
+                <div class="card contenedor_imagen_marcas" data-aos="fade-left">
                     <a href="https://ducasseindustrial.com/ar/ " target="_blank">
-                        <img src="../assets/img/DUCASSE.jpg" class="card-img-top" alt="ducasse">
+                        <img src="../assets/img/DUCASSE.webp" class="card-img-top" alt="ducasse">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Ducasse</h5>
@@ -65,10 +70,11 @@
                     </div>
                 </div>
             </div>
+                                        <!-- SECCION EGGER -->
             <div class="col">
-                <div class="card contenedor_imagen_marcas">
+                <div class="card contenedor_imagen_marcas" data-aos="fade-right">
                     <a href="https://www.egger.com/es/?country=AR " target="_blank">
-                        <img src="../assets/img/EGGER.jpg" class="card-img-top" alt="egger">
+                        <img src="../assets/img/EGGER.webp" class="card-img-top" alt="egger">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Egger</h5>
@@ -78,12 +84,13 @@
                     </div>
                 </div>
             </div>
+                                        <!-- SECCION FAPLAC -->
             <div class="col">
-                <div class="card contenedor_imagen_marcas">
+                <div class="card contenedor_imagen_marcas" data-aos="fade-left">
                     <a href="https://www.faplaconline.com.ar/home/?gclid=Cj0KCQjwnf-kBhCnARIsAFlg491mn4Vgws4dX6kjVVN7bTGxDcOtRMgNLoDRJgk8lepc1pc6ymhd5ooaApsFEALw_wcB "
                         target="_blank">
 
-                        <img src="../assets/img/FAPLAC.jpg" class="card-img-top" alt="faplac">
+                        <img src="../assets/img/FAPLAC.webp" class="card-img-top" alt="faplac">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Faplac</h5>
@@ -95,12 +102,25 @@
             </div>
         </div>
     </main>
+                                            <!-- FIN MAIN-->
 
 
 
 
+
+                                        <!-- FOOTER/PIE DE PAGINA -->
     <footer>
         <div class="container-fluid mt-5 ">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb conteiner-fluid justify-content-center">
+                    <li class="breadcrumb-item"><a href="../index.html" class="fuente_breadcrumb">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="./colores.html" class="fuente_breadcrumb">Colores</a></li>
+                    <li class="breadcrumb-item"><a href="./contacto.html" class="fuente_breadcrumb">Contacto</a></li>
+                    <li class="breadcrumb-item active fuente_breadcrumb_activo " aria-current="page">Marcas</a></li>
+                    <li class="breadcrumb-item"><a href="./espacios.html"  class="fuente_breadcrumb">Espacios</a></li>
+                    <li class="breadcrumb-item"><a href="./dondecomprar.html" class="fuente_breadcrumb">Donde Comprar</a></li>
+                </ol>
+            </nav>
 
             <div class="card text-center contenedor_footer ">
                 <div class="card-header color_font_footer">
@@ -125,5 +145,9 @@
 
 </body>
 <script src="../js/bootstrap.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
 </html>

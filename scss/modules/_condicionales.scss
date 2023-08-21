@@ -1,0 +1,44 @@
+$vista: desktop;
+
+@if $vista == desktop {
+    @media (max-width: 1000px) {
+
+        .card{
+         margin: 5px;
+        }
+     
+     
+         .card-text {
+             display: none;
+         }
+     
+         .card-img-top {
+             width: 100%;
+             height: 100%;
+     
+         }
+         .card-body{
+             display: none;
+         }
+         .seccion_carrusel_uno {
+            padding-top: 20px;
+            width: 100%;
+    
+            .carousel-item {
+                height: 100%;
+                width: 100%;
+                .img_carrusel {
+                    border-radius: $bordes_radio_15;
+                    .seccion_dos {
+                        background-color: map-get($paleta_colores, "negro")
+                    }
+                }
+            }
+        }
+     }
+     
+}
+
+
+
+

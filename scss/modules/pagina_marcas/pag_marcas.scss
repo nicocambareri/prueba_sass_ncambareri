@@ -1,4 +1,5 @@
+// Estilos de pagina MARCAS
 .contenedor_imagen_marcas{
-    background-color: $color_negro;
-    color: $color_blanco;
+    background-color: map-get($paleta_colores, "negro");
+    color: map-get($paleta_colores, "blanco");
 }

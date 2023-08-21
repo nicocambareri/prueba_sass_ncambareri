@@ -1,21 +1,35 @@
-footer {
-    height: 20vh;
-    .contenedor_footer{
-        background-color: $color_gris;
+ footer {
+    .fuente_breadcrumb{
+        color:map-get($paleta_colores, blanco ) !important ;
+        list-style-type: none;
+        text-decoration: none;
+        
+     }
+     .fuente_breadcrumb_activo {
+        color:map-get($paleta_colores, verde_borde ) !important ;
+        list-style-type: none;
+        text-decoration: none;
+    
+    }
+     .contenedor_footer{
+         background-color:map-get($paleta_colores, "gris");
+       color: map-get($paleta_colores, "blanco");
         .boton_footer{
-            background-color: $color_blanco;
-            color: $color_negro;
-            border: $bordes_uno $color_negro;
-            &:hover {
-                background-color: $color_hover_dos;
-                color:$color_negro;
-                border: $bordes_uno $color_borde;
-                .color_font_footer{
-                    color: $color_blanco;
-                }
+            background-color: map-get($paleta_colores, "blanco");
+             color: map-get($paleta_colores, "negro");
+             border: $bordes_uno map-get($paleta_colores, "negro");
+             &:hover {
+                 background-color: map-get($paleta_colores, "verde_hover");
+                 color:map-get($paleta_colores, "negro");
+                 border: $bordes_uno map-get($paleta_colores, "verde_borde");
+                 .color_font_footer{
+                     color: map-get($paleta_colores, "blanco");
+                 }
                 
-            }
+             }
             
         }
-    }
-}
+     }
+ }
+
+

@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Design</title>
-    <link rel="shortcut icon" href="../assets/img/conexiones-de-carpinteria.png" />
+    <meta name="description"
+        content="en este sector podras encontrarnos en un mapa con localizacion para conocernos personalmente">
+    <title>Home Design - Todo para tus Espacios</title>
+    <link rel="shortcut icon" href="../assets/img/conexiones-de-carpinteria.webp" />
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
 
-
+    <!-- HEADER/NAV/CABECERA/MENU SUPERIOR -->
     <header>
         <div class="container-fluid d-flex justify-content-center contenedor_nav  ">
             <nav class="navbar navbar-expand-sm nav_personalizado">
@@ -37,25 +40,43 @@
         </div>
     </header>
 
-
+    <!-- COMINEZO MAIN -->
     <main>
-        <div class="container">
-        <div class="card contenedor_imagen_mapa" style="width: 100%;">
-            <img src="../assets/img/mapa.png" class="card-img-top" alt="...">
-            <div class="card-body ">
-              <h5 class="card-title">Nuestra Ubicacion</h5>
-              <p>Horarios Lunes a Viernes - 09:00hs a 13:00hs y 16:00hs a 20:30hs</p>
-              <p class="card-text">Podes encontrarnos en Caseros N° 1545 de la Ciudad de Viedma , Provincia de Rio Negro , Argentina </p>
-              <a href="https://goo.gl/maps/Lv1Fr5hcxxLJjJGu5" class="btn btn-primary boton_contacto_ubicacion_mapa" target="_blank">Ubicacion</a>
+        <!-- SECCION MAPA Y DESCRIPCION -->
+       
+        <div class="container" data-aos="flip-up">
+            <div class="card contenedor_imagen_mapa" style="width: 100%;">
+                <img src="../assets/img/mapa.webp" class="card-img-top" alt="...">
+                <div class="card-body ">
+                    <h5 class="card-title">Nuestra Ubicacion</h5>
+                    <p>Horarios Lunes a Viernes - 09:00hs a 13:00hs y 16:00hs a 20:30hs</p>
+                    <p class="card-text">Podes encontrarnos en Caseros N° 1545 de la Ciudad de Viedma , Provincia de Rio
+                        Negro , Argentina </p>
+                    <a href="https://goo.gl/maps/Lv1Fr5hcxxLJjJGu5"
+                        class="btn btn-primary boton_contacto_ubicacion_mapa" target="_blank">Ubicacion</a>
+                </div>
             </div>
-          </div>
         </div>
 
 
-    </main>
 
+    </main>
+    <!-- FIN MAIN -->
+
+
+    <!-- FOOTER /PIE DE PAGINA -->
     <footer>
         <div class="container-fluid mt-5 ">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb conteiner-fluid justify-content-center">
+                    <li class="breadcrumb-item"><a href="../index.html" class="fuente_breadcrumb">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="./contacto.html" class="fuente_breadcrumb">Cotacto</a></li>
+                    <li class="breadcrumb-item"><a href="./colores.html" class="fuente_breadcrumb">Colores</a></li>
+                    <li class="breadcrumb-item"><a href="./marcas.html" class="fuente_breadcrumb">Marcas</a></li>
+                    <li class="breadcrumb-item"><a href="./espacios.html" class="fuente_breadcrumb">Espacios</a></li>
+                    <li class="breadcrumb-item active fuente_breadcrumb_activo " aria-current="page">Donde Comprar</a></li>
+                </ol>
+            </nav>
 
             <div class="card text-center contenedor_footer ">
                 <div class="card-header color_font_footer">
@@ -80,5 +101,9 @@
 
 </body>
 <script src="../js/bootstrap.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
